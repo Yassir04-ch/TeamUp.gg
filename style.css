@@ -4,20 +4,127 @@
   box-sizing: border-box;
 }
 body{
-     font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
     color: white;
     background-color:#1e2131;
 }
+/* header */
+header{
+    height: 60px;
+}
 nav{
+    max-width: 1500px;
     display: flex;
     justify-content:space-between;
+    margin-top: 20px;
 }
-.nav-links{
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.logo span , h4 span{
+    color: aqua;
+}
+.nav-links {
     display: flex;
     list-style: none;
+    margin-right: 20px;
     gap: 30px;
 }
-.nav-links a{
+.nav-links a , .footer-section a{
    text-decoration: none;
    color: white;
+   font-weight: 300;
+   position: relative;
 }
+.nav-links a:hover{
+    color: limegreen;
+    font-weight: 400;
+}
+p , .pre{
+    opacity: 70%;
+}
+ul a button{
+    width: 90px;
+    height: 30px;
+    background-image: linear-gradient(to right ,
+    aqua , rgb(0, 119, 255));
+    border-radius: 7px;
+    border: none;
+}
+ /* sectin1   */
+ .accu{
+     height: 600px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     background-image: linear-gradient(to right , rgba(11, 49, 138, 0.203),
+     rgba(71, 210, 248, 0.114),#ff00ff1c);
+
+ }
+ .accu h1{
+       font-size: 60px;
+       background: linear-gradient(to right ,
+       rgb(255, 242, 242) , aqua);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       background-clip: text;
+ }
+ .accu-buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+ }
+.accu-buttom .commencer button{
+   background-image:linear-gradient(to right ,
+    aqua , rgb(12, 178, 244));
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+    margin-right: 40px;
+    box-shadow: 0 3px  20px rgba(0, 255, 255, 0.678);
+}
+.accu-buttom .en-savoir button{
+    color: aqua;
+    background-color:#1e213100 ;
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    border-color: aqua;
+}
+/* footer */
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 40px;
+    
+}
+.footer-section p {
+    padding: 10px;
+}
+.footer-section ul li{
+    list-style: none;
+    padding: 10px;
+}
+/* comment ça marche */
+div.h2{
+    width: 1400px; ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px 50px ;
+}
+article.truve{
+ border: aqua;
+}
+
