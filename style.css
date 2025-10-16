@@ -1,130 +1,470 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
-    color: white;
-    background-color:#1e2131;
+body {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  color: white;
+  background-color: #1e2131;
 }
 /* header */
-header{
-    height: 60px;
+header {
+  height: 55px;
 }
-nav{
-    max-width: 1500px;
-    display: flex;
-    justify-content:space-between;
-    margin-top: 20px;
+nav {
+  max-width: 1300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color:black;
 }
 .logo {
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
 }
-.logo span , h4 span{
-    color: aqua;
+.logo span,
+h4 span {
+  color: aqua;
 }
 .nav-links {
-    display: flex;
-    list-style: none;
-    margin-right: 20px;
-    gap: 30px;
+  margin-top: 20px;
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+  gap: 30px;
 }
-.nav-links a , .footer-section a{
-   text-decoration: none;
-   color: white;
-   font-weight: 300;
-   position: relative;
+.nav-links a,
+.footer-section a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  position: relative;
 }
-.nav-links a:hover{
-    color: limegreen;
-    font-weight: 400;
+.nav-links a:hover {
+  color: limegreen;
+  font-weight: 400;
 }
-p , .pre{
-    opacity: 70%;
+p,
+.pre {
+  opacity: 70%;
 }
-ul a button{
-    width: 90px;
-    height: 30px;
-    background-image: linear-gradient(to right ,
-    aqua , rgb(0, 119, 255));
-    border-radius: 7px;
-    border: none;
+ul a button {
+  width: 90px;
+  height: 30px;
+  background-image: linear-gradient(to right, aqua, rgb(0, 119, 255));
+  border-radius: 7px;
+  border: none;
 }
- /* sectin1   */
- .accu{
-     height: 600px;
-     display:flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     background-image: linear-gradient(to right , rgba(11, 49, 138, 0.203),
-     rgba(71, 210, 248, 0.114),#ff00ff1c);
+/* sectin1   */
+.accu {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    rgba(11, 49, 138, 0.203),
+    rgba(71, 210, 248, 0.114),
+    #ff00ff24
+  );
+}
+.accu h1 {
+  font-size: 60px;
+  background: linear-gradient(to right, rgb(255, 242, 242), aqua);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.accu-buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.accu-buttom .commencer button {
+  background-image: linear-gradient(to right, aqua, rgb(12, 178, 244));
+  height: 40px;
+  width: 200px;
+  border-radius: 7px;
+  border: none;
+  margin-right: 40px;
+  box-shadow: 0 3px 20px rgba(0, 255, 255, 0.678);
+}
+.accu-buttom .en-savoir button {
+  color: aqua;
+  background-color: #1e213100;
+  height: 40px;
+  width: 150px;
+  border-radius: 7px;
+  border-color: aqua;
+}
 
+/* Recherche ton équipe idéale */
+div.recherche-title {
+  display: flex;
+  justify-content: center;
+}
+.recherche-titele {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.input-recheche {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.input-recheche input {
+  padding: 10px;
+  width: 251px;
+  height: 49px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 255, 162, 0.308);
+  background-color: #1a1f3a;
+  margin-top: 10px;
+}
+.input-recheche button {
+  width: 268px;
+  height: 48px;
+  background-image: linear-gradient(to right, aqua, rgb(0, 119, 255));
+  border-radius: 7px;
+  border: none;
+  margin-top: 32px;
+}
+.input-recheche label {
+  color: aqua;
+  font-weight: 500;
+}
+
+/* comment ça marche */
+.comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 50px;
+}
+div.comment-marche_title {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+article.tout-comment {
+  height: 250px;
+  padding: 30px;
+  background-color: #1a1f3a;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 255, 255, 0.185);
+}
+.logo-comment i {
+  width: 50px;
+  height: 50px;
+  color: aqua;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 217, 255, 0.253),
+    rgba(0, 110, 255, 0.285),
+    rgba(183, 0, 255, 0.176)
+  );
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+}
+.comment-text {
+  margin-top: 40px;
+}
+/* Recherche Joueur */
+div.recherche-joueur-titele {
+  display: flex;
+  justify-content: center;
+}
+.recherche-joueur-titele {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.recheche-input {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.recheche-input input {
+  padding: 10px;
+  width: 251px;
+  height: 49px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 255, 162, 0.308);
+  background-color: #1a1f3a;
+  margin-top: 10px;
+}
+.recheche-input button {
+  width: 268px;
+  height: 48px;
+  background-image: linear-gradient(to right, aqua, rgb(0, 119, 255));
+  border-radius: 7px;
+  border: none;
+  margin-top: 32px;
+}
+.recheche-input label {
+  color: aqua;
+  font-weight: 500;
+}
+/* Joueyrs disponibles */
+.jeueurs-titele {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.joueurs img {
+  width: 65px;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 0 3px 10px rgba(0, 255, 255, 0.678);
+}
+.partie-one,
+.partie-tow {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px 20px;
+}
+.partie_border {
+  background-color: #1a1f3a;
+  padding: 20px;
+  border: 1px solid rgba(0, 255, 255, 0.377);
+  border-radius: 7px;
+}
+.joueurs button {
+  width: 268px;
+  height: 48px;
+  background-image: linear-gradient(to right, aqua, rgb(0, 119, 255));
+  border-radius: 7px;
+  border: none;
+  margin-top: 32px;
+}
+h5.valorant {
+  color: orangered;
+  position: relative;
+  left: 40%;
+  width: 75px;
+  height: 20px;
+  margin: 15px 0;
+  background-color: rgba(255, 68, 0, 0.292);
+  border: 1px solid rgba(255, 68, 0, 0.589);
+  border-radius: 25px;
+}
+h5.league {
+  color:rgb(0, 183, 255);
+  position: relative;
+  left: 31%;
+  width: 150px;
+  height: 20px;
+  margin: 15px 0;
+  background-color:  rgba(12, 59, 176, 0.489);
+  border: 1px solid rgb(0, 183, 255);
+  border-radius: 25px;
+}
+h5.cs2{
+  color: rgb(232, 210, 11);
+  position: relative;
+  left: 40%;
+  width: 50px;
+  height: 20px;
+  margin: 15px 0;
+  background-color:  rgba(255, 255, 0, 0.228);
+  border: 1px solid  rgb(206, 183, 11);
+  border-radius: 25px;
+}
+.joueurs-partie-pre{
+    color: aqua;
+    font-weight:900;
+    margin: 15px 0;
+}
+
+/* cummunanté */
+section .communante {
+  width: 70%;
+}
+.cummunaute-titele {
+  margin-left: 35%;
+  margin-top: 90px;
+}
+.communaute-items {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin: 70px;
+}
+.communaute-number {
+  background: linear-gradient(
+    to right,
+    rgba(0, 255, 255, 0.658),
+    rgba(173, 8, 218, 0.963)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.communaute-items-border {
+  border: 1px solid rgba(0, 255, 255, 0.155);
+  padding: 10px 30px 10px 30px;
+  background-color: #1b1f387b;
+  border-radius: 7px;
+  padding-top: 20px;
+  width: 200px;
+  height: 100px;
+}
+/* Annonce */
+section.annonce{
+    background-image:url(backround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+form.annonce-items{
+    margin-top: 80px;
+}
+form.annonce-items input{
+    width: 600px;
+    height: 40px;
+    background-color: #d2dbe7de;
+    color: black;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+}
+form.annonce-items textarea{
+     width: 600px;
+    height: 40px;
+    background-color: #d2dbe7de;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+form.annonce-items button{
+    width: 600px;
+    height: 40px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, aqua, rgb(0, 119, 255));
+    color: black;
+    border: none;
+    padding: 0px;
+    border-radius: 20px;
+}
+/* connection */
+ section.connection{
+    width: 500px;
+    background-color: rgba(25, 75, 141, 0.66);
+    border-radius: 15px;
+    box-shadow: -1px 0px 40px rgba(0, 166, 255, 0.591);
+    margin: 100px auto;
+    height: 350px;
+    text-align: center;
  }
- .accu h1{
-       font-size: 60px;
-       background: linear-gradient(to right ,
-       rgb(255, 242, 242) , aqua);
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-       background-clip: text;
+
+ form.connection-items{
+    margin-top: 40px;
  }
- .accu-buttom{
+ form.connection-items input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding:20px;
+ }
+ form.connection-items button{
+    width: 400px;
+    height: 30px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,aqua,rgb(0, 119, 255));
+ }
+ .connection-modifier{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+    gap:140px;
+    margin-top: 10px;
  }
-.accu-buttom .commencer button{
-   background-image:linear-gradient(to right ,
-    aqua , rgb(12, 178, 244));
-    height: 40px;
-    width: 200px;
-    border-radius: 7px;
+ .connection-modifier a{
+    color: gray;
+    text-decoration: none;
+ }
+ /* inscription */
+  section.inscription{
+    width: 500px;
+    background-color: rgba(25, 75, 141, 0.66);
+    border-radius: 15px;
+    box-shadow: -1px 0px 40px rgba(0, 166, 255, 0.591);
+    margin: 100px auto;
+    height: 600px;
+    text-align: center;
+ }
+
+ form.inscription-items{
+    margin-top: 40px;
+ }
+ form.inscription-items input{
+    width: 400px;
+    height: 30px;
     border: none;
-    margin-right: 40px;
-    box-shadow: 0 3px  20px rgba(0, 255, 255, 0.678);
-}
-.accu-buttom .en-savoir button{
-    color: aqua;
-    background-color:#1e213100 ;
+    border-radius: 20px;
+    margin: 8px 0;
+    padding:20px;
+ }
+ form.inscription-items button{
+    width: 400px;
     height: 40px;
-    width: 150px;
-    border-radius: 7px;
-    border-color: aqua;
-}
+    border: none;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,aqua,rgb(0, 119, 255));
+ }
+ a{
+    text-decoration: none;
+ }
 /* footer */
-.footer-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin:100px 40px;
-    
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 40px;
 }
 .footer-section p {
-    padding: 10px;
+  padding: 10px;
 }
-.footer-section ul li{
-    list-style: none;
-    padding: 10px;
+.footer-section ul li {
+  list-style: none;
+  padding: 10px;
 }
-/* comment ça marche */
-div.h2{
-    width: 1400px; ;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.footer_section_container-margine-top {
+  margin-top: -35px;
 }
-.comment{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin:50px 50px ;
+.icons {
+  color: aqua;
 }
-article.truve{
- border: aqua;
+.icons i {
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  border: 1px solid rgba(0, 255, 255, 0.356);
+  background-color: #03271050;
+  border-radius: 7px;
 }
-

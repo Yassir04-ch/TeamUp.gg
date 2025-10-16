@@ -5,42 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>TEAMUP.gg</title>
+    <title>Connection</title>
 </head>
 <body>
-    <!-- Header -->
+     <!-- Header -->
     <header>
-        <nav>
-            <div class="logo">
-              <h3>TeamUp<span>.gg</span></h3>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="comment.html">Comment ça marche</a></li>
-                <li><a href="joueurs.html">Joueurs</a></li>
-                <li><a href="annonce.html">Annonce</a></li>
-                <li><a href="communauté.html">Communauté</a></li>
-                <a href="connection.html"><button>Connexion</button></a>
-            </ul>
-        </nav>
+      <nav>
+        <div class="logo">
+          <h3>TeamUp<span>.gg</span></h3>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="comment.html">Comment ça marche</a></li>
+          <li><a href="joueurs.html">Joueurs</a></li>
+          <li><a href="annonce.html">Annonce</a></li>
+          <li><a href="communauté.html">Communauté</a></li>
+          <a href="connection.html"><button>Connexion</button></a>
+        </ul>
+      </nav>
     </header>
-    <!-- accueil -->
-     <section id="accueil" class="accu">
-         <div class="accu-content">
-            <h1>Trouve ton équipe.
-                 <pre>  Domine le jeu</pre>
-            </h1>
-            <p>Rejoins la plus grande communauté E-sport et connecte-toi avec des joueurs de ton
-            <pre class="pre">                  niveau sur Valorant,LoL,CS2 et plus encore.</pre>
-            </p>
-            <div class="accu-buttom">
-                 <a href="comment.html" class="commencer"><button>Commencer maintenant</button></a>
-                 <a href="joueurs.html"  class="en-savoir"><button>En savoir plus</button></a>
-            </div>
-         </div>
-         </section>
-
-     <!-- Footer -->
+    <!-- connection -->
+     <section class="connection">
+        <div class="connection-titele">
+            <h2>Connection</h2>
+        </div>
+        <form class="connection-items" >
+            <label for="email">Email</label>
+            <br>
+            <input id="email" type="email" placeholder="email" name="email" required>
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" placeholder="password" name=" password" required>
+            <br>
+            <button><a href="index.html">Connection</a></button>
+        </form>
+        <div class="connection-modifier">
+        <a href="inscription.html">new user? </a>
+        <a href="#">Forgot your password?</a>
+        </div>
+     </section>
+      <!-- Footer -->
          <hr>
       <footer>
         <div class="footer-content">
@@ -86,7 +91,5 @@
 
         </div>
       </footer>
-
-
 </body>
 </html>

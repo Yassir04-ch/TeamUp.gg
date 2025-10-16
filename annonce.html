@@ -1,47 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>TEAMUP.gg</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <title>Annonce</title>
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <nav>
-            <div class="logo">
-              <h3>TeamUp<span>.gg</span></h3>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="comment.html">Comment ça marche</a></li>
-                <li><a href="joueurs.html">Joueurs</a></li>
-                <li><a href="annonce.html">Annonce</a></li>
-                <li><a href="communauté.html">Communauté</a></li>
-                <a href="connection.html"><button>Connexion</button></a>
-            </ul>
-        </nav>
+      <nav>
+        <div class="logo">
+          <h3>TeamUp<span>.gg</span></h3>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="comment.html">Comment ça marche</a></li>
+          <li><a href="joueurs.html">Joueurs</a></li>
+          <li><a href="annonce.html">Annonce</a></li>
+          <li><a href="communauté.html">Communauté</a></li>
+          <a href="connection.html"><button>Connexion</button></a>
+        </ul>
+      </nav>
     </header>
-    <!-- accueil -->
-     <section id="accueil" class="accu">
-         <div class="accu-content">
-            <h1>Trouve ton équipe.
-                 <pre>  Domine le jeu</pre>
-            </h1>
-            <p>Rejoins la plus grande communauté E-sport et connecte-toi avec des joueurs de ton
-            <pre class="pre">                  niveau sur Valorant,LoL,CS2 et plus encore.</pre>
-            </p>
-            <div class="accu-buttom">
-                 <a href="comment.html" class="commencer"><button>Commencer maintenant</button></a>
-                 <a href="joueurs.html"  class="en-savoir"><button>En savoir plus</button></a>
-            </div>
-         </div>
-         </section>
+    <!-- Annonce -->
+    <section class="annonce">
+      <div class="annonce-titele">
+        <h2>Annonce De Recrutement</h2>
+      </div>
 
-     <!-- Footer -->
-         <hr>
+      <form class="annonce-items">
+        <label for="equipe">name équipe</label>
+        <br/>
+        <input id="equipe" type="text" placeholder="nom de équipe" name="equipe" required />
+        <br/>
+        <label for="jeux">Jeux</label>
+        <br/>
+        <input id="jeux" type="text" placeholder="Jeux" name="jeux" required />
+        <br/>
+        <label for="niveau">Niveaux</label>
+        <br/>
+        <input type="text" placeholder="Niveaux" name="Niveaux" required />
+        <br />
+        <label for="role">Role</label>
+        <br/>
+        <input type="text" placeholder="Role on équipe" required name="role" />
+        <br/>
+        <label for="discription">Discription</label>
+        <br/>
+        <textarea id="discription" name="discription" placeholder="Discription de annonce" required></textarea>
+        <br/>
+        <button>Partage</button>
+      </form>
+    </section>
+    <!-- Footer -->
+     <hr>
       <footer>
         <div class="footer-content">
             <div class="footer-section footer_section_container-margine-top">
@@ -86,7 +100,5 @@
 
         </div>
       </footer>
-
-
-</body>
+  </body>
 </html>
