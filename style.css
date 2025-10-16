@@ -102,7 +102,14 @@ ul a button {
   border-radius: 7px;
   border-color: aqua;
 }
-
+h2{
+  font-size: 35px;
+  background: linear-gradient(to right, rgb(0, 119, 255)
+  , rgba(0, 242, 255, 0.758));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 /* Recherche ton équipe idéale */
 div.recherche-title {
   display: flex;
@@ -313,8 +320,8 @@ section .communante {
 .communaute-number {
   background: linear-gradient(
     to right,
-    rgba(0, 255, 255, 0.658),
-    rgba(173, 8, 218, 0.963)
+    rgba(14, 216, 216, 0.753),
+    rgb(172, 29, 211)
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -329,49 +336,109 @@ section .communante {
   width: 200px;
   height: 100px;
 }
+.disent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 50px;
+}
+div.communauté-disent_title {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+article.tout-disent {
+  height: 200px;
+  padding: 30px;
+  background-color: #1a1f3a;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 255, 255, 0.185);
+}
+.disent-text h4{
+  color:aqua;
+  margin-top: 20px;
+}
 /* Annonce */
 section.annonce{
-    background-image:url(backround.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
+  background-image: linear-gradient(to right , rgba(14, 227, 231, 0.153),rgba(170, 0, 255, 0.103));
+    height: 720px;
     text-align: center;
+}
+.annonce-content{
+  display: flex;
+  justify-content:space-between;
+}
+.annonce-titele{
+  position: relative;
+  left: 290px;
+  top: 20px;
+}
+img.image-annonce{
+  width: 600px;
+  height: 673px;
 }
 form.annonce-items{
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 form.annonce-items input{
-    width: 600px;
+    width: 500px;
     height: 40px;
-    background-color: #d2dbe7de;
+    position: relative;
+    right: 80px;
+    background-color: #d2dbe700;
     color: black;
-    border: none;
+    border: 3px solid rgba(0, 255, 255, 0.237);
     padding: 20px;
     border-radius: 20px;
 }
 form.annonce-items textarea{
-     width: 600px;
+    width: 500px;
     height: 40px;
-    background-color: #d2dbe7de;
+    position: relative;
+    right: 80px;
+    background-color: #d2dbe700;
     color: black;
-    border: none;
+    border: 3px solid rgba(0, 255, 255, 0.235);
     padding: 10px;
     border-radius: 20px;
 }
 form.annonce-items button{
-    width: 600px;
+    width: 250px;
     height: 40px;
-    margin-top: 20px;
+    position: relative;
+    bottom: 10px;
+    right: 80px;
     background-image: linear-gradient(to right, aqua, rgb(0, 119, 255));
     color: black;
     border: none;
     padding: 0px;
     border-radius: 20px;
 }
+
+form.annonce-items label{
+   position: relative;
+    right: 280px;
+}
+form .possition-label_right{
+  position: relative;
+  right: 28px;
+}
+form .possition-label-Niveaux_right{
+  position: relative;
+  right: 15px;
+}
+form.annonce-items textarea{
+  height: 120px;
+}
 /* connection */
  section.connection{
     width: 500px;
-    background-color: rgba(25, 75, 141, 0.66);
+    background-color: #194b8da8;
     border-radius: 15px;
     box-shadow: -1px 0px 40px rgba(0, 166, 255, 0.591);
     margin: 100px auto;
@@ -440,6 +507,51 @@ form.annonce-items button{
  a{
     text-decoration: none;
  }
+ /* Profils */
+ table{
+  background-color: rgba(17, 16, 94, 0.511);
+  position: absolute;
+  left: 90px;
+  border: 1px solid white;
+  height: 400px;
+ }
+ section.profils{
+  background-image: linear-gradient(to right , rgba(0, 221, 255, 0.189) , rgba(128, 0, 255, 0.299));
+  max-width:1300px;
+  height:1000px;
+}
+.profils-title{
+  position:relative;
+  bottom: 120px;
+  left: 60px;  
+}
+
+.profils-items{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 85%;
+  height: 400px;
+  gap: 50px;
+}
+ thead{
+  height: 40px;
+ }
+ th{
+  border: 1px solid white;
+ }
+ tbody{
+   height: 40px;
+ }
+td{
+   border: 1px solid white;
+   padding: 20px;
+}
+td img{
+  width: 60px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 40px rgb(10, 134, 212);
+}
 /* footer */
 .footer-content {
   display: flex;
