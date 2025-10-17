@@ -14,18 +14,18 @@
               <h3>TeamUp<span>.gg</span></h3>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="comment.html">Comment ça marche</a></li>
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#section1">Comment ça marche</a></li>
                 <li><a href="profiles.html">profils</a></li>
-                <li><a href="joueurs.html">Joueurs</a></li>
+                <li><a href="#section2">Joueurs</a></li>
                 <li><a href="annonce.html">Annonce</a></li>
-                <li><a href="communauté.html">Communauté</a></li>
+                <li><a href="#section3">Communauté</a></li>
                 <a href="connection.html"><button>Connexion</button></a>
             </ul>
         </nav>
     </header>
     <!-- accueil -->
-     <section id="accueil" class="accu">
+     <section id="hero" class="accu">
          <div class="accu-content">
             <h1>Trouve ton équipe.
                  <pre>  Domine le jeu</pre>
@@ -39,11 +39,239 @@
             </div>
          </div>
          </section>
+ <!-- Recherche ton équipe idéale -->
+      <section class="recherche">
+        <div class="recherche-titele">
+            <h2>Recherche ton équipe idéale</h2>
+        </div>
+        <form class="input-recheche">
+            <div class="Jeu">
+               <label for="jeu">Jeu</label>
+                <br>
+                <input id="jeu" type="text" placeholder="Sélectionne un jeu " required name="jeu"> 
+            </div>
+            <div class="Niveaux">
+                <label for="niveau">niveau</label>
+                <br>
+                <input id="niveau" type="text" placeholder="Tous les niveaux" required name="jeu">
+            </div>
+            <div class="Role">
+                <label for="role">Role</label>
+                <br>
+                <input id="role" type="text" placeholder="Tous les role" required name="jeu">
+            </div>
+            <button>Rechercher</button>
+        </form>
+      </section>
+      <!-- Comment ça marche -->
+    <section id="section1" class="comment-marche">
+        <div class="comment-marche_title">
+            <h2>Comment ça marche</h2>
+        </div>
 
+        <div class="comment">
+            <article class="tout-comment">
+                <div class="logo-comment">
+                  <i class="fa-solid fa-user-group"></i><!-- logo1 -->
+                </div>
+                <div class="comment-text">
+                    <h5>Trouve une équipe</h5>
+                    <p>parcours des centaire de profils de</p>
+                    <p>joueurs et d'équipes qui cherchent des</p>
+                    <p>coéquipiers de ton niveu.</p>
+                </div>
+            </article>
+             <article class="tout-comment">
+                <div class="logo-comment">
+                  <i class="fa-solid fa-user-plus"></i><!-- logo2 -->
+                </div>
+                <div class="comment-text">
+                    <h5> publie ton profil</h5>
+                    <p>Crée ton profil de joueur avec tes stats,</p>
+                    <p>tes jeux favoris et ton niveau pour étre</p>
+                    <p>visible par les équipes.</p>
+                </div>
+            </article>
+            <article class="tout-comment">
+                <div class="logo-comment">
+                  <i class="fa-solid fa-user-group"></i><!-- logo3 -->
+                </div>
+                <div class="comment-text">
+                    <h5>  Rejoins la communauté</h5>
+                    <p>Connecte-toi avec des milliers de</p>
+                    <p>joueurs passionnés et participe à</p>
+                    <p>tournois communautaires.</p>
+                </div>
+            </article>
+        
+        </div>
+    </section>
+
+     <!-- Joueurs disponibes -->
+     <section  id="section2" class="joueurs">
+        <div class="jeueurs-titele">
+            <h2>Joueurs disponibles</h2>
+        </div>
+          <div class="partie-one">
+            <div class="partie_border">
+               <div class="xFawzer">
+                <img src="img/gamer1.jpg">
+               </div>
+               <div> 
+                <h3>xFawzer</h3>
+                <h5 class="valorant">Valorant</h5>
+                <pre class="joueurs-partie-pre">Controller Diamant II</pre>
+                <p class="para-xfawzer">Main Clove/Omen, cherche équipe compétitive
+                  <pre class="pre">    pour ranked push</pre>
+                </p>
+                <a href="profiles.html"><button>Voir le profil</button></a>
+              </div>
+            </div>
+
+            <div class="partie_border">
+               <div class="PhoenixRising">
+                <img src="img/yassir.jpg">
+              </div>
+              <div>
+                <h3>X7YASSIR</h3>
+                <h5 class="league">League of Legends</h5>
+                <pre class="joueurs-partie-pre"> Mid Lane   Maitre</pre>
+                <p class="para-phenix">Joueur mid expérimenté, disponible pour scrims
+                  <pre class="pre">       et tournois</pre>
+                </p>
+                <a href="profiles.html"><button>Voir le profil</button></a>
+              </div>
+            </div>
+
+           <div class="partie_border">
+             <div class="IceQueen">
+                <img src="img/gamer2.jpg">
+             </div>
+             <div>
+                <h3>IceQueen</h3>
+                <h5 class="cs2">CS2</h5>
+                <pre class="joueurs-partie-pre">AWPer    Global Elite</pre>
+                <p class="para-xfawzer">AWP main, 3000h de jeu, cherche équipe
+                  <pre class="pre">      sérieuse</pre>
+                </p>
+                <a href="profiles.html"><button>Voir le profil</button></a>
+             </div>
+           </div>
+          </div>
+          <div class="partie-tow">
+            <div class="partie_border">
+             <div class="xFawzer">
+                <img src="img/gamer3.jpg">
+             </div>
+             <div> 
+                <h3>NeonBlade</h3>
+                <h5 class="valorant">Valorant</h5>
+                <pre class="joueurs-partie-pre">Controleur  platino III</pre>
+                <p class="para-xfawzer">Main Clove/Omen, cherche équipe compétitive
+                  <pre class="pre">    pour ranked push</pre>
+                </p>
+                <a href="profiles.html"><button>Voir le profil</button></a>
+             </div>
+            </div>
+             <div class="partie_border">
+               <div class="PhoenixRising">
+                 <img src="img/gamer4.png">
+               </div>
+               <div>
+                <h3>PhoenixRising</h3>
+                <h5 class="league">League of Legends</h5>
+                <pre class="joueurs-partie-pre"> Mid Lane   Maitre</pre>
+                <p class="para-phenix">Joueur mid expérimenté, disponible pour scrims
+                  <pre class="pre">       et tournois</pre>
+                </p>
+                <a href="joueurs.html"><button>Voir le profil</button></a>
+               </div>
+             </div>
+           <div class="partie_border">
+              <div class="IceQueen">
+                <img src="img/gamer5.png">
+              </div>
+              <div>
+                <h3> CyberNinja</h3>
+                <h5 class="cs2">CS2</h5>
+                <pre class="joueurs-partie-pre">Entry Fragger    supreme</pre>
+                <p class="para-xfawzer">AWP main, 3000h de jeu, cherche équipe
+                  <pre class="pre">      sérieuse</pre>
+                </p>
+                <a href="profiles.html"><button>Voir le profil</button></a>
+              </div>
+           </div>
+            
+          </div>
+
+     </section>
+     <!-- communauté en pleine  -->
+      <section id="section3" class="communauté">
+        <div class="cummunaute-titele">
+          <h2>Une communauté en pleine croissance</h2>
+        </div>
+        <div class="communaute-items">
+          <div class="joueurs-actifs communaute-items-border">
+             <h2 class="communaute-number">15,000+</h2>
+             <p>Joueurs actifs</p>
+          </div>
+          <div class="equipes-formees communaute-items-border">
+              <h2 class="communaute-number">2,500+</h2>
+              <p>Equipes formées</p>
+          </div>
+          <div class="tournois communaute-items-border">
+               <h2 class="communaute-number">50+</h2>
+               <p>Tournois</p>
+          </div>
+          <div class="jeux-supportes communaute-items-border">
+            <h2 class="communaute-number">10+</h2>
+            <p>Jeux supportés</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ce qu'ils disent de nous  -->
+    <section id="disent" class="communauté-disent">
+        <div class="communauté-disent_title">
+            <h2>Ce qu'ils disent de nous</h2>
+        </div>
+
+        <div class="disent">
+            <article class="tout-disent">
+                <div class="disent-text">
+                    <p>"J'ai trouvé mon équipe en moins de 24h !</p>
+                    <p>L'interface est super intuitive et la</p>
+                    <p>communauté est vraiment active."</p>
+                    <h4>ProGmer92</h4>
+                    <p>c joueur Valorant</p>
+                </div>
+            </article>
+             <article class="tout-disent">
+                <div class="disent-text">
+                    <p>"TeamUp.gg a complétement changé ma</p>
+                    <p>façon de jouer.fini les randoms toxiques,</p>
+                    <p>maintenant je joue avec une vraie équipe</p>
+                    <p>!"</p>
+                    <h4>LunaGaming</h4>
+                    <p>Joueuse CS2</p>
+                </div>
+            </article>
+            <article class="tout-disent">
+                <div class="disent-text">
+                    <p> "La meilleure platforme pour trouver des</p>
+                    <p>coéquipiers sérieux. on a mémé participé</p>
+                    <p> à notre premier tournoi ensemble !"</p>
+                    <h4>DarogonStlayer</h4>
+                    <p>Joueur LoL</p>
+                </div>
+            </article>
+        
+        </div>
+    </section>
 
 
  <!-- Footer -->
-         <hr>
+      <hr>
       <footer>
         <div class="footer-content">
             <div class="footer-section footer_section_container-margine-top">
@@ -89,6 +317,5 @@
         </div>
       </footer>
      
-
 </body>
 </html>

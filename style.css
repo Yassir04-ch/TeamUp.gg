@@ -10,7 +10,9 @@ body {
 }
 /* header */
 header {
+  width: 100%;
   height: 55px;
+  background-color: black;
 }
 nav {
   max-width: 1300px;
@@ -58,7 +60,7 @@ ul a button {
   border-radius: 7px;
   border: none;
 }
-/* sectin1   */
+/* accueil */
 .accu {
   height: 600px;
   display: flex;
@@ -101,14 +103,6 @@ ul a button {
   width: 150px;
   border-radius: 7px;
   border-color: aqua;
-}
-h2{
-  font-size: 35px;
-  background: linear-gradient(to right, rgb(0, 119, 255)
-  , rgba(0, 242, 255, 0.758));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 /* Recherche ton équipe idéale */
 div.recherche-title {
@@ -308,7 +302,7 @@ section .communante {
   width: 70%;
 }
 .cummunaute-titele {
-  margin-left: 27%;
+  margin-left: 32%;
   margin-top: 90px;
 }
 .communaute-items {
@@ -377,7 +371,7 @@ section.annonce{
 }
 img.image-annonce{
   width: 600px;
-  height: 673px;
+  height: 690px;
 }
 form.annonce-items{
     margin-top: 80px;
@@ -552,12 +546,18 @@ td img{
   border-radius: 7px;
   box-shadow: 5px 5px 40px rgb(10, 134, 212);
 }
+hr{
+  position: relative;
+  top: 50px;
+  height:1px;
+  border: 1px solid #0d217c7a;
+}
 /* footer */
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 40px;
+  margin: 100px 40px 30px 40px;
 }
 .footer-section p {
   padding: 10px;
