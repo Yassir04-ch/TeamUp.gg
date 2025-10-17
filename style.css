@@ -183,6 +183,10 @@ article.tout-comment {
 .comment-text {
   margin-top: 40px;
 }
+.tout-comment:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 136, 255, 0.735);
+}
 /* Recherche Joueur */
 div.recherche-joueur-titele {
   display: flex;
@@ -296,6 +300,10 @@ h5.cs2{
     font-weight:900;
     margin: 15px 0;
 }
+.partie_border:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 94, 255, 0.9);
+}
 
 /* cummunanté */
 section .communante {
@@ -353,6 +361,14 @@ article.tout-disent {
 .disent-text h4{
   color:aqua;
   margin-top: 20px;
+}
+.communaute-items-border:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 94, 255, 0.9);
+}
+.tout-disent:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 94, 255, 0.9);
 }
 /* Annonce */
 section.annonce{
