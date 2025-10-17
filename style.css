@@ -10,7 +10,12 @@ body {
 }
 /* header */
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   height: 55px;
+  background-color: black;
+  z-index: 1000;
 }
 nav {
   max-width: 1300px;
@@ -308,7 +313,7 @@ section .communante {
   width: 70%;
 }
 .cummunaute-titele {
-  margin-left: 35%;
+  margin-left: 25%;
   margin-top: 90px;
 }
 .communaute-items {
@@ -363,7 +368,7 @@ article.tout-disent {
 /* Annonce */
 section.annonce{
   background-image: linear-gradient(to right , rgba(14, 227, 231, 0.153),rgba(170, 0, 255, 0.103));
-    height: 720px;
+    height: 750px;
     text-align: center;
 }
 .annonce-content{
@@ -373,14 +378,14 @@ section.annonce{
 .annonce-titele{
   position: relative;
   left: 290px;
-  top: 20px;
+  top: 80px;
 }
 img.image-annonce{
   width: 600px;
-  height: 673px;
+  height: 700px;
 }
 form.annonce-items{
-    margin-top: 80px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     gap: 25px;
