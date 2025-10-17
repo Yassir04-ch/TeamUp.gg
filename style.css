@@ -516,7 +516,7 @@ form.annonce-items textarea{
   height: 400px;
  }
  section.profils{
-  background-image: linear-gradient(to right , rgba(0, 221, 255, 0.189) , rgba(128, 0, 255, 0.299));
+  background-image: linear-gradient(to right , #00ddff30 , rgba(128, 0, 255, 0.299));
   max-width:1300px;
   height:1000px;
 }
