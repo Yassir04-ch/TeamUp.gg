@@ -79,7 +79,7 @@ ul a button {
   background: linear-gradient(to right, rgb(255, 242, 242), aqua);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+   background-clip: text;
 }
 .accu-buttom {
   display: flex;
@@ -520,15 +520,16 @@ form.annonce-items textarea{
  /* Profils */
  table{
   background-color: rgba(17, 16, 94, 0.511);
-  position: absolute;
+  position: relative;
   left: 90px;
-  border: 1px solid white;
-  height: 400px;
+  top: -30px;
+  border: 1px solid rgb(36, 13, 13);
+  height: 1000px;
  }
  section.profils{
   background-image: linear-gradient(to right , #00ddff30 , rgba(128, 0, 255, 0.299));
   max-width:1300px;
-  height:1000px;
+  height:1600px;
 }
 .profils-title{
   position:relative;
@@ -541,20 +542,20 @@ form.annonce-items textarea{
   top: 40%;
   left: 10%;
   width: 85%;
-  height: 400px;
+  height: 800px;
   gap: 50px;
 }
  thead{
   height: 40px;
  }
  th{
-  border: 1px solid white;
+  border: 1px solid rgb(46, 41, 41);
  }
  tbody{
    height: 40px;
  }
 td{
-   border: 1px solid white;
+   border: 1px solid rgb(23, 5, 5);
    padding: 20px;
 }
 td img{
