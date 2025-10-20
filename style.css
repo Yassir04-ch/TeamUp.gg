@@ -382,12 +382,8 @@ section.annonce{
 }
 .annonce-titele{
   position: relative;
-  left: 290px;
-  top: 20px;
-}
-img.image-annonce{
-  width: 600px;
-  height: 690px;
+  left: 200px;
+  top: 200px;
 }
 form.annonce-items{
     margin-top: 80px;
